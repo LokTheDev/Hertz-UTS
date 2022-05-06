@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hertz-UTS</title>
+    <link rel="stylesheet" href="./CSS/indexStyles.css">
+    <link rel="stylesheet" href="./CSS/cart.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Hertz-UTS</h1>
+        <h1>Car Rental </h1>
+        <div id="cartBtnContainer">
+            <button id="cartBtn"> <a href="/index.html"> Home </a> </button>
+    </div>
+
+    </nav>
+
+    <div class="cartCase">
+        <h1>Selected Car</h1>
+        <button id="checkOutBtn" disabled onclick="sumAmount()">Check Out</button>
+           <img id="loadingGif" src="./Resources/Hourglass.gif" style="width:50px;height:50px;">    
+           
+           
+        
+    </div> 
+
+    <footer>
+        <h1>CopyRight @Lok</h1>
+    </footer>
+    
+</body>
+<script src="./JS/cartSession.js"></script>
+</html>

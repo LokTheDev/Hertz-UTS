@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;    
+    background-color: black;
+    color: white;
+}
+
+#cartBtnContainer {
+    position: relative;
+}
+
+#cartBtn{
+    height: 50px;
+    width: 80px;
+}
+
+.cardBtn{
+    padding: 5px 5px;
+    color: white;
+    
+}
+
+#cartNum{
+    background-color:red;
+    font-size:xx-small;
+    position: absolute;
+    padding:2px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+    background-color: black;
+    color: white;}
+
+.carSlider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    height: 100vh;
+    padding: 5px;
+}
+
+/*Hide ScrollBar for apperal*/
+.carSlider::-webkit-scrollbar { 
+    display: none;
+}
+
+/*Display Each Card*/
+.carCard{
+    box-shadow: 2px 2px 2px 2px rgb(183, 183, 183);
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    width: 350px; 
+    height: 400px;
+}
+
+.carCard > img{
+    width: 150px; 
+    height: 150px;
+}
+
+.carDes{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.carDes > p{}

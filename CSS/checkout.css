@@ -1,0 +1,10 @@
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    height: 100vh;
+    padding: 5px;
+}
