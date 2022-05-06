@@ -11,7 +11,7 @@ function getSession() {
     alert("No car has been reserved");
     sessionStorage.clear();
     //redirect to page 1 ***********
-    window.location.href = "Hertz-UTS/index.html";
+    window.location.href = "index.html";
     return;
   }
   //if remove all storage and reload..
@@ -19,7 +19,7 @@ function getSession() {
     alert("No car has been reserved");
     sessionStorage.clear();
     //redirect to page 1 ***********
-    window.location.href = "Hertz-UTS/index.html";
+    window.location.href = "index.html";
     return;
   }
   //assign HASH MAP
@@ -118,6 +118,6 @@ function sumAmount() {
     sum += eval(amount[i].value * price[i].innerHTML);
     sessionStorage.setItem("totalPrice", sum);
   }
-  window.location.href = "Hertz-UTS/checkout.html";
+  window.location.href = "checkout.html";
 
 }

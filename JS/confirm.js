@@ -21,5 +21,5 @@ area.innerHTML = `
 
 function reset(){
     sessionStorage.clear();
-    window.location.href = "Hertz-UTS/index.html";
+    window.location.href = "index.html";
 }
