@@ -38,12 +38,12 @@ function getSession() {
       object = JSON.parse(xhttp.responseText);
       document.getElementsByClassName("cartCase")[0].innerHTML += `
       <div class="Content">                  
-                  <div calss="contentCol"><h3>Image</h3></div>
-                  <div calss="contentCol"><h3>Model</h3></div>
-                  <div calss="contentCol"><h3>Description</h3></div>
-                  <div calss="contentCol"><h3>Price/Day</h3></div>
-                  <div calss="contentCol"><h3>Rental Days</h3></div>
-                  <div calss="contentCol"><h3>Action</h3></div>
+                  <div class="contentCol"><h3>Image</h3></div>
+                  <div class="contentCol"><h3>Model</h3></div>
+                  <div class="contentCol"><h3>Description</h3></div>
+                  <div class="contentCol"><h3>Price/Day</h3></div>
+                  <div class="contentCol"><h3>Rental Days</h3></div>
+                  <div class="contentCol"><h3>Action</h3></div>
 
       </div>
       `
@@ -54,7 +54,7 @@ function getSession() {
               <div class="selected" value=${i}>
                   <img class="carImg" src="./images/${object[i].Model}.jpeg">
                   <div class="carInfo">
-                  <div calss="cartItem">${object[i].ModelYear} -- ${object[i].Model}</div>
+                  <div class="cartItem">${object[i].ModelYear} -- ${object[i].Model}</div>
                   <div class="cartItem">${object[i].Description}</div>
                   <div class="cartItem price">${object[i].PricePerDay}</div>
                   <input type="number" min="0" class="amount">
